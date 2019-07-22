@@ -8,4 +8,4 @@ Normally, if we are a developer of a WISE-PaaS application, we may have access t
 
 ## Step-by-step
 
-Once we have the key, we may retreive service credentials via DCCS API.     See more [DCCS Documentation](http://bit.ly/wisepaas-apis-dccs)
+Once we have the key, we may retreive service credentials via DCCS API. See more [DCCS Documentation](http://bit.ly/wisepaas-apis-dccs).
