@@ -5,7 +5,7 @@ require('./key.txt');
 const DCCSKEY = SERVICE_KEY;
 const DCCSUrl = 'https://api-dccs.wise-paas.io/v1/serviceCredentials/'+DCCSKEY;
 
-async function createMockTemp(){
+async function createMockHumi(){
     //await the response of the fetch call
     let response = await fetch(DCCSUrl)
     //proceed once the first promise is resolved.
@@ -16,7 +16,7 @@ async function createMockTemp(){
     return correctUri;
 }
 
-createMockTemp()
+createMockHumi()
   .then(function(mqttUri){
     console.log('=*=*=*=*=*=URI=*=*=*=*=*=');
     console.log(mqttUri);
