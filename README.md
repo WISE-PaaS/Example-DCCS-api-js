@@ -1,4 +1,4 @@
-# DCCS-api-js
+# DCCS-API-js
 
 This git hub shows how an edge device to connect to WISE-PaaS IoT Hub service remotely and securely via DCCS api.
 
