@@ -44,7 +44,7 @@ Now, you have access to the key in the code.
 const DCCSUrl = 'https://api-dccs.wise-paas.io/v1/serviceCredentials/' + DCCSKEY;
 ```
 
-This is the api url to retreive credentials of the service. If you wish to come up with other functions, see [DCCS Documentation](http://bit.ly/wisepaas-apis-dccs).
+**NOTE**: This is the api url to retreive credentials of the service. If you wish to come up with other functions, see [DCCS Documentation](http://bit.ly/wisepaas-apis-dccs).
 
 ```js
 async function createMockTemp(){
