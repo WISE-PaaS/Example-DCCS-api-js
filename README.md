@@ -85,3 +85,5 @@ createMockHumi()
     }
   })
 ```
+
+**NOTE**: In the async function above, it has a return of the uri we require to connect to the IoT Hub service. We need to make sure we get the uri before we start publishing data. So, we need a **`promise function`** to make sure that the codes are fully executed and we get the parameter, **`.then()`** execute the code in this promise function.
